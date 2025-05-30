@@ -5,7 +5,7 @@ from pythonping.executor import SuccessOn # Import for type hinting if needed
 from rich.live import Live
 from rich.text import Text
 
-from netspect.utils.display import get_progress_bar, print_success, print_error, print_info, console
+from netspect.utils.display import get_progress_bar, print_success, print_error, print_info, console, print_warning
 
 def ping_host(target: str, count: int = 4, timeout: int = 2, verbose: bool = False) -> bool:
     """
